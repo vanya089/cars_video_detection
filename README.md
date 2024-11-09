@@ -11,4 +11,5 @@
 
 ## Запуск проекта
 1. Соберите Docker-образ:
+   ```bash
    docker build -t car_detection_project .
