@@ -1,0 +1,12 @@
+kagglehub
+pandas
+matplotlib
+seaborn
+numpy
+tqdm
+opencv-python
+torch
+mlflow
+jupyter
+pycocotools
+yt-dlp
