@@ -12,6 +12,5 @@ EXPOSE 5000
 
 ENV PYTHONUNBUFFERED=1
 
-# Позволяем запускать несколько команд (например, Jupyter, MLflow)
 ENTRYPOINT ["bash", "-c"]
 CMD ["jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root"]

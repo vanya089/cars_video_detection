@@ -13,3 +13,8 @@
 1. Соберите Docker-образ:
    ```bash
    docker build -t car_detection_project .
+
+2. Запуск:
+   ```bash
+   docker run -p 8888:8888 -p 5000:5000 car_detection_project
+

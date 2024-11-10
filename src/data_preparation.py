@@ -7,7 +7,7 @@ import pandas as pd
 from tqdm import tqdm
 
 def download_and_prepare_data():
-    # Скачивание данных с Kaggle
+
     path = kagglehub.dataset_download("sshikamaru/car-object-detection")
     print("Path to dataset files:", path)
 
