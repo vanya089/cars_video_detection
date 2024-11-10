@@ -9,7 +9,7 @@ def detect_objects_on_video(video_path):
         print(f"Video file not found: {video_path}")
         return
 
-    frame_width, frame_height = 676, 380  # размеры для модели YOLO
+    frame_width, frame_height = 676, 380  
 
     detect.run(weights="yolov5s.pt",
                source=video_path,
@@ -20,6 +20,6 @@ def detect_objects_on_video(video_path):
                exist_ok=True)
 
 if __name__ == "__main__":
-    video_path = "./video.mp4"  # Путь к видеофайлу
+    video_path = "./video.mp4"  
     detect_objects_on_video(video_path)
     Video("./output_detection/video_detection/video.mp4", embed=True)
