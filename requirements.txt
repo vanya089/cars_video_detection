@@ -7,6 +7,6 @@ tqdm
 opencv-python
 torch
 mlflow
-jupyter
 pycocotools
+jupyter
 yt-dlp
